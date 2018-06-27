@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- fin de navbar -->
+
+    <!-- debut de la page -->
+    <div class="container mt-4">
+        <div class="row">
+
+            <!-- colone de gauche -->
+            <div class="col-3">
+                <div class="card bg-light" style="max-width: 20rem;">
+                    <div class="card-header p-4">link 1</div>
+                    <div class="card-header p-4">link 2</div>
+                    <div class="card-header p-4">link 3</div>
+                    <div class="card-header p-4">link 1</div>
+                    <div class="card-header p-4">link 2</div>
+                    <div class="card-header p-4">link 3</div>
+                </div>
+            </div>
+            <!-- fin de colone de gauche -->
+
+            <!-- centre de la page -->
+
+            <div class="col-6">
+
+                <!-- article 1-->
+                <div class="card border-primary mb-3 article">
+                    <div class="card-body">
+                        <h4 class="card-title article-titre">Titre Article</h4>
+                        <p class="card-text article-teaser">petit teaser de l'article ne prenant que quelque mot de façon automatisé ...
+                            <a href="#">Lire la suite ></a>
+                        </p>
+                    </div>
+                    <div class="commentaire m-2">
+                        Commentaires :
+                    </div>
+                    <div class="zone-comme">
+                        <div class="new-comm"></div>
+                        <div class="card bg-light m-3">
+                            <div class="card-header">John Doe:</div>
+                            <div class="card-body">
+                                <p class="card-text">Super Article.</p>
+                            </div>
+                        </div>
+                        <div class="card bg-light m-3">
+                            <div class="card-header">Angelina Jolie:</div>
+                            <div class="card-body">
+                                <p class="card-text">Super Auteur.</p>
+                            </div>
+                        </div>
+                        <div class="card bg-light m-3 cacher">
+                            <div class="card-header">Michael Loison:</div>
+                            <div class="card-body">
+                                <p class="card-text">Je pense que la théorie expliquant l'apparition de la terre et du systeme solaire en lui
+                                    même est plutot bonne même si il est encore difficile à ce jour de démontrer la réalité
+                                    du bigbang.</p>
+                            </div>
+                        </div>
+                        <div class="card bg-light m-3 cacher">
+                            <div class="card-header">Jean Kevin:</div>
+                            <div class="card-body">
+                                <p class="card-text">J'adore les boobs.</p>
+                            </div>
+                        </div>
+                        <div class="card bg-light m-3 cacher">
+                            <div class="card-header">Miss Feministe</div>
+                            <div class="card-body">
+                                <p class="card-text">J'aimerai porter pleinte contre la personne du dessus pour sexisme, j'attend à ce que vous
+                                    me transmettiez ces coordonées dans le but de pouvoir le poursuivre en justice, si vous
+                                    ne répondez pas à ma demande, je serais dans l'obligation de porter pleinte aussi contre
+                                    vous pour complicité.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn mt-2 mb-2 btn-info btn-commentaire">
+                                <i class="fas fa-chevron-down"></i> Afficher plus de commentaire
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                    </div>
+
+                    
+
+
+                    <div class="form-control">
+                        <textarea name="commentaire" cols="30" rows="1" class="commentaire-textarea" placeholder="Ajouter un commentaire..."></textarea>
+                    </div>
+                </div>
+                <!-- fin d'article -->
+
+                <!-- article 2-->
+                <div class="card border-primary mb-3 article">
+                    <div class="card-body">
+                        <h4 class="card-title article-titre">Titre Article</h4>
+                        <p class="card-text article-teaser">petit teaser de l'article ne prenant que quelque mot de façon automatisé ...
+                            <a href="#">Lire la suite ></a>
+                        </p>
+                    </div>
+                    <div class="commentaire m-2">
+                        Commentaires :
+                    </div>
+                    <div class="zone-comme"></div>
+                    <blockquote class="blockquote m-2 commentaire-gauche">
+                        <p class="mb-0">Super Article</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">John Doe</a>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote m-2 text-right commentaire-droit">
+                        <p class="mb-0">Vive l'auteur !!!</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">Angelina Jolie</a>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote m-2 commentaire-gauche cacher">
+                        <p class="mb-0">Je pense que la théorie expliquant l'apparition de la terre et du systeme solaire en lui
+                            même est plutot bonne même si il est encore difficile à ce jour de démontrer la réalité
+                            du bigbang.</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">Loison Michael</a>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote m-2 text-right commentaire-droit cacher">
+                        <p class="mb-0">J'adore les boobs.</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">Jean Kevin</a>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote m-2 commentaire-gauche cacher">
+                        <p class="mb-0">J'aimerai porter pleinte contre la personne du dessus pour sexisme, j'attend à ce que vous
+                            me transmettiez ces coordonées dans le but de pouvoir le poursuivre en justice, si vous
+                            ne répondez pas à ma demande, je serais dans l'obligation de porter pleinte aussi contre
+                            vous pour complicité.</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">Miss Feministe</a>
+                        </footer>
+                    </blockquote>
+
+                    <button type="button" class="btn mt-2 mb-2 btn-info btn-commentaire">
+                        <i class="fas fa-chevron-down"></i> Afficher plus de commentaire
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+
+
+                    <div class="form-control">
+                        <textarea name="commentaire" cols="30" rows="1" class="commentaire-textarea" placeholder="Ajouter un commentaire..."></textarea>
+                    </div>
+                </div>
+                <!-- fin d'article -->
+
+                <!-- article 3-->
+                <div class="card border-primary mb-3 article">
+                    <div class="card-body">
+                        <h4 class="card-title article-titre">Titre Article</h4>
+                        <p class="card-text article-teaser">petit teaser de l'article ne prenant que quelque mot de façon automatisé ...
+                            <a href="#">Lire la suite ></a>
+                        </p>
+                    </div>
+                    <div class="commentaire m-2">
+                        Commentaires :
+                    </div>
+                    <div class="zone-comme"></div>
+                    <blockquote class="blockquote m-2 commentaire-gauche">
+                        <p class="mb-0">Super Article</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">John Doe</a>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote m-2 text-right commentaire-droit">
+                        <p class="mb-0">Vive l'auteur !!!</p>
+                        <footer class="blockquote-footer">
+                            <a href="#">Angelina Jolie</a>
+                        </footer>
+                    </blockquote>
+
+                    <button type="button" class="btn mt-2 mb-2 btn-info btn-commentaire">
+                        <i class="fas fa-chevron-down"></i> Afficher plus de commentaire
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+
+
+                    <div class="form-control">
+                        <textarea name="commentaire" cols="30" rows="1" class="commentaire-textarea" placeholder="Ajouter un commentaire..."></textarea>
+                    </div>
+                </div>
+                <!-- fin d'article -->
+            </div>
+
+            <!-- fin de centre de la page -->
+
+            <!-- colone de droite -->
+            <div class="col-3">
+                <div class="card bg-light" style="max-width: 20rem;">
+                    <div class="card-header p-4">link 1</div>
+                    <div class="card-header p-4">link 2</div>
+                    <div class="card-header p-4">link 3</div>
+                    <div class="card-header p-4">link 1</div>
+                    <div class="card-header p-4">link 2</div>
+                    <div class="card-header p-4">link 3</div>
+                </div>
+            </div>
+            <!-- fin de colone de droite -->
+        </div>
+    </div>
+    <!-- fin de la page -->
+
+    <!-- debut du footer -->
+    <div class="alert alert-dismissible alert-light">
+        <div class="container text-center">
+            Copyright M.L 2018 &copy;
+        </div>
+    </div>
+    <!-- fin du footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
